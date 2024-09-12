@@ -62,12 +62,12 @@ Apresentar os dados
 ## Módulos em Node.js:
  [*]Importação de módulos (require, CommonJS)
  [*]Biblioteca 'inquirer' para criar prompts interativos
- FS (file system)
+ [*]FS (file system)
 
 ## JSON
- Javascript Object Notation (.json)
- JSON.parse(): transforma de JSON para JS
- JSON.stringify(): transforma de JS para JSON
+ [*]Javascript Object Notation (.json)
+ [*]JSON.parse(): transforma de JSON para JS
+ [*]JSON.stringify(): transforma de JS para JSON
 
 ## Programação assíncrona e Promises:
  [*]Uso de funções assíncronas (async/await)
