@@ -1,21 +1,17 @@
 
-//organização de um meta
-let meta = {
-    value: "ler um livro todo mês",
-    checked: true,
+function start(){
+    let count = 1
+    console.log("Entrou, iniciando contagem (1-10)...")
+
+    const intervaloValido = setInterval(() => {
+        if (count < 10){
+            console.log(count + "s");
+            count++;
+        } else {
+            console.log(count + "s - *Contagem Concluída*");
+            clearInterval(intervaloValido);
+        }
+    }, 1000);
 }
 
-// organização de varias metas
-let metas = [
-    meta,
-    {
-        value: "caminhar 30 min todo dia",
-        checked: false,
-    },
-    {
-        value: "limpar a casa",
-        checked: true,
-    }
-] 
-
-console.log(metas[2].value)
+start()
