@@ -32,12 +32,13 @@ Coletar os dados Processar os dados (manipular, alterar ...) Apresentar os dados
  [*]Operadores de atribuição de valor: =
  [*]Operador de contatenação: +
  [*]Operadores de comparação: == != <= >= < >
+ [*]Spread operator: ...
 
 ## Estruturas de dados:
 
 ## Arrays:
  [*]Uma lista que contém qualquer tipo de dado
- [*]Métodos de array: push, find, forEach
+ [*]Métodos de array: push, [find, forEach,  filter, map]: HOF (Higher Order Functions)
 
 ## Objetos:
  [*]Atributos e métodos
@@ -59,6 +60,12 @@ Coletar os dados Processar os dados (manipular, alterar ...) Apresentar os dados
 ## Módulos em Node.js:
  [*]Importação de módulos (require, CommonJS)
  [*]Biblioteca 'inquirer' para criar prompts interativos
+ FS (file system)
+
+## JSON
+ Javascript Object Notation (.json)
+ JSON.parse(): transforma de JSON para JS
+ JSON.stringify(): transforma de JS para JSON
 
 ## Programação assíncrona e Promises:
  [*]Uso de funções assíncronas (async/await)
