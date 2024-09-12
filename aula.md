@@ -57,8 +57,8 @@ Coletar os dados Processar os dados (manipular, alterar ...) Apresentar os dados
  [*]if/else
 
 ## Módulos em Node.js:
- Importação de módulos (require, CommonJS)
- Biblioteca 'inquirer' para criar prompts interativos
+ [*]Importação de módulos (require, CommonJS)
+ [*]Biblioteca 'inquirer' para criar prompts interativos
 
 ## Programação assíncrona e Promises:
- Uso de funções assíncronas (async/await)
+ [*]Uso de funções assíncronas (async/await)
