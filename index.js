@@ -1,20 +1,21 @@
-// arrays, objetos
+
+//organização de um meta
 let meta = {
     value: "ler um livro todo mês",
-    checked: false,
-    log: (info) => {
-        console.log(info)
+    checked: true,
+}
+
+// organização de varias metas
+let metas = [
+    meta,
+    {
+        value: "caminhar 30 min todo dia",
+        checked: false,
+    },
+    {
+        value: "limpar a casa",
+        checked: true,
     }
-}
+] 
 
-// function // arrow function // named function
-
-function alterarMeta(novaMeta) { 
-    meta.value = novaMeta
-    console.log("* Meta Alterada *")
-    console.log("Nova meta: " + meta.value)
-}
-
-// Função Main
-console.log("Meta Atual: "+ meta.value)
-alterarMeta("Correr 5km todo dia")
+console.log(metas[2].value)
