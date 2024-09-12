@@ -35,14 +35,14 @@ Coletar os dados Processar os dados (manipular, alterar ...) Apresentar os dados
 ## Estruturas de dados:
 
 Arrays:
- Uma lista que contém qualquer tipo de dado
+ [*]Uma lista que contém qualquer tipo de dado
 
 Objetos:
- Atributos e métodos
- Criação e manipulação de objetos
- Acesso a propriedades de objetos
+ [*]Atributos e métodos
+ [*]Criação e manipulação de objetos
+ [*]Acesso a propriedades de objetos
  
 Functions
- criar, passar argumento
- excutar
- arrow function / named function
+ [*]criar, passar argumento
+ [*]excutar
+ [*]arrow function / named function
