@@ -53,7 +53,7 @@ Coletar os dados Processar os dados (manipular, alterar ...) Apresentar os dados
  [*]while
  
 ## Condicionais
- switch
+ [*]switch
  [*]if/else
 
 ## Módulos em Node.js:

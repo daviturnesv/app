@@ -1,17 +1,18 @@
 
 function start(){
-    let count = 1
-    console.log("Entrou, iniciando contagem (1-10)...")
-
-    const intervaloValido = setInterval(() => {
-        if (count < 10){
-            console.log(count + "s");
-            count++;
-        } else {
-            console.log(count + "s - *Contagem Concluída*");
-            clearInterval(intervaloValido);
+    while(true){
+        let opcao = "sair"
+        switch(opcao){
+            case "cadastrar":
+                console.log("vamos cadastrar")
+                break
+            case "listar":
+                console.log("vamos listar")
+                break
+            case "sair":
+                return
         }
-    }, 1000);
+    }
 }
 
 start()
